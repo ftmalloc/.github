@@ -12,4 +12,5 @@ Roadmap to public beta release:
 
 Post public release roadmap:
 - [ ] Reed-Solomon coding within each parity region (RAID 6 style)
+- [ ] Replace OpenSSL dependency with a similarly secure and performant, smaller keyed hashing algorithm
 
