@@ -4,13 +4,15 @@ We use a combination of a tightly controlled tokenized access model, POSIX memor
 Here you'll find the full ftmalloc source code released under an MIT license, once released, as well as other supporting projects and papers.
 
 Roadmap to public beta release:
-- [x] Secure heap initialization and sanity checks
-- [ ] Token-to-heap address mappings
+- [x] Secure initialization and sanity checks
+- [ ] Token-to-address mappings
 - [ ] Implement allocation functions
 - [ ] XOR parity within each parity region (RAID 5 style)
 - [ ] Custom signal handler to catch SIGSEGV and SIGBUS and rebuild from parity
 
 Post public release roadmap:
 - [ ] Reed-Solomon coding within each parity region (RAID 6 style)
-- [ ] Replace OpenSSL dependency with a similarly secure and performant, smaller keyed hashing algorithm
+
+Other tasks:
+- [X] Replace OpenSSL dependency with a similarly secure and performant, smaller keyed hashing algorithm
 
