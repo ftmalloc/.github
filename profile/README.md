@@ -11,8 +11,10 @@ Roadmap to public beta release:
 - [ ] Custom signal handler to catch SIGSEGV and SIGBUS and rebuild from parity
 
 Post public release roadmap:
+- [ ] Fork curl and patch to use ftmalloc
 - [ ] Reed-Solomon coding within each parity region (RAID 6 style)
 
 Other tasks:
 - [X] Replace OpenSSL dependency with a similarly secure and performant, smaller keyed hashing algorithm
+- [ ] Replace zlib dependency with a standalone crc32
 
