@@ -5,16 +5,17 @@ Here you'll find the full ftmalloc source code released under an MIT license, on
 
 Roadmap to public beta release:
 - [x] Secure initialization and sanity checks
-- [ ] Token-to-address mappings
-- [ ] Implement allocation functions
+- [x] Token-to-address mappings
+- [x] Implement base allocation functions
 - [ ] XOR parity within each parity region (RAID 5 style)
 - [ ] Custom signal handler to catch SIGSEGV and SIGBUS and rebuild from parity
 
 Post public release roadmap:
+- [ ] Implement extra allocation functions (ftvalloc, ftaligned_alloc, etc.)
 - [ ] Fork curl and patch to use ftmalloc
 - [ ] Reed-Solomon coding within each parity region (RAID 6 style)
 
 Other tasks:
 - [X] Replace OpenSSL dependency with a similarly secure and performant, smaller keyed hashing algorithm
-- [ ] Replace zlib dependency with a standalone crc32
+- [x] Replace zlib dependency with a standalone crc32
 
