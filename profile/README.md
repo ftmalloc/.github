@@ -1,5 +1,5 @@
 ftmalloc is a research project aiming to build the most resilient, fault-tolerant, and secure dynamic memory allocator available for POSIX systems.
-We use a combination of a tightly controlled tokenized access model, POSIX memory protections, checksums per memory block and per allocation, and Reed-Solomon coding, to accomplish this.
+We use a combination of a tightly controlled tokenized access model, POSIX memory protections, checksums per memory pool and per allocation, and RAID-style parity data, to accomplish this.
 
 Here you'll find the full ftmalloc source code released under an MIT license, once released, as well as other supporting projects and papers.
 
