@@ -7,8 +7,8 @@ Roadmap to public beta release:
 - [x] Secure initialization and sanity checks
 - [x] Token-to-address mappings
 - [x] Implement base allocation functions
+- [x] Custom signal handler to catch SIGSEGV and SIGBUS and block access
 - [ ] XOR parity within each parity region (RAID 5 style)
-- [ ] Custom signal handler to catch SIGSEGV and SIGBUS and rebuild from parity
 
 Post public release roadmap:
 - [ ] Implement extra allocation functions (ftvalloc, ftaligned_alloc, etc.)
